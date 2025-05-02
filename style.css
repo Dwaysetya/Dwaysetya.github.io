@@ -1,0 +1,389 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  background-color: #050c45;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0206237c;
+  color: white;
+  box-shadow: 2px 10px 20px 1px rgba(6, 6, 6, 0.119);
+  z-index: 99;
+}
+
+.navbar h3 a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding-left: 35%;
+  align-items: center;
+}
+
+.navbar ul li a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover,
+.navbar h3 a:hover {
+  color: #00aeff;
+}
+
+.section-1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 100vh;
+  background: #050b3a;
+  padding-top: 70px;
+}
+
+.content1 {
+  width: 50%;
+  margin: 10%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.judul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.name-judul {
+  font-weight: bold;
+  font-size: 50px;
+  align-self: flex-start;
+}
+
+.garis {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.garis hr {
+  border: none;
+  border-top: 2px solid #fff;
+  margin-right: 10px;
+}
+
+.garis span {
+  color: #00aeff;
+  margin-right: 20px;
+}
+
+.paragraf {
+  margin: 30px 0;
+}
+
+.teks-22 {
+  text-align: left;
+  line-height: 1.6;
+  color: white;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #00aeff;
+  color: black;
+  border-radius: 7px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  width: fit-content;
+}
+
+.button:hover {
+  background-color: white;
+}
+
+.button img {
+  width: 15px;
+  height: 15px;
+}
+
+.content2 {
+  width: 50%;
+  background-color: #050b3a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content2 img {
+  width: 400px;
+  height: auto;
+}
+.section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #050b3a;
+  padding: 40px 20px;
+}
+
+.judul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teks-36 {
+  font-size: 30px;
+  font-weight: 800;
+  color: white;
+  margin: 50px 0 0 0;
+}
+
+.teks-12 {
+  font-weight: 300;
+  font-size: 16px;
+  color: rgb(157, 155, 155);
+  margin: 0;
+}
+.content-aboute {
+  width: 500px;
+  height: 400px;
+  margin: 70px;
+}
+.aboute {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.aboute-1 {
+  background-color: #03072a;
+  width: 160px;
+  height: 150px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.aboute-1 img {
+  width: 40px;
+  height: 40px;
+  align-self: center;
+}
+.aboute-1 .teks-20 {
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+}
+.aboute-1 .teks-10 {
+  font-size: 11px;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  margin-top: 0;
+}
+.content3-skills {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skills {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.content-skills {
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+.content-skills-css {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  margin: 4px;
+}
+.contact {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-contact {
+  width: 70%;
+  height: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.contact-1 {
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+}
+.judul-contact {
+  width: 100%;
+  height: 100pxpx;
+  display: flex;
+  flex-direction: column;
+}
+.teks-33 {
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+  align-self: center;
+}
+.box-email {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.send-email {
+  width: 70%;
+  height: 200px;
+  background-color: #03072a;
+  border-radius: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.teks-12:hover {
+  color: black;
+}
+.send-email:hover {
+  background-color: #00aeff;
+}
+.box-input {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box-input label {
+  align-self: flex-start;
+  padding: 10px;
+}
+.name {
+  width: 100%;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #03072a;
+  border: none;
+  color: white;
+  font-size: 12px;
+  padding: 20px;
+}
+.description {
+  width: 100%;
+  height: 500px;
+  border-radius: 20px;
+  background-color: #03072a;
+  border: none;
+  color: white;
+  font-size: 12px;
+  padding: 20px;
+}
+.send {
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #00aeff;
+  color: black;
+  border-radius: 7px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  width: fit-content;
+  align-self: flex-start;
+  display: inline-flex;
+  gap: 10px;
+}
+.send img {
+  width: 20px;
+  height: 20px;
+}
+.send:hover {
+  background-color: white;
+}
+footer {
+  width: 100%;
+  height: 250px;
+  background-color: #03072a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.footer-1 {
+  width: 100%;
+  margin: 20px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+.footer-1 img {
+  width: 30px;
+  height: 30px;
+  margin: 60px 40px;
+}
+footer h1 {
+  color: white;
+}
+.footer-1 img:hover {
+  background-color: #00aeff;
+  border-radius: 20px;
+}
+.teks-footer {
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+  margin: 60px;
+}
