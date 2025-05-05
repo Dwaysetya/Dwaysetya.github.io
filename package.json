@@ -11,5 +11,8 @@
   "description": "",
   "devDependencies": {
     "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "pacman-contribution-graph": "^1.0.14"
   }
 }
