@@ -387,8 +387,11 @@ footer h1 {
   font-weight: 200;
   margin: 60px;
 }
- 
+
 @media (max-width: 768px) {
+  body{
+    background-color: #050b3a;
+  }
   .navbar {
     position: fixed;
     bottom: 0;
@@ -423,28 +426,61 @@ footer h1 {
 
   .hamburger {
     position: absolute;
-    top: -60px; /* menempatkan hamburger di atas navbar */
+    top: -60px;
     right: 20px;
   }
-   main {
+  main {
     margin-bottom: 70px;
   }
-  .section-1{
+  .section-1 {
     display: flex;
     flex-direction: column-reverse;
   }
-  .content2 img{
+  .content2 {
     width: 100%;
   }
-  .aboute{
+  .skills,
+  .content1,
+  .judul {
+    max-width: 768px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .garis span {
+    margin-right: 0;
+  }
+  .judul h1 {
+    width: 100%;
+  }
+  .teks-22 {
+    text-align: justify;
+  }
+  .content-contact {
+    width: 100%;
     flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40%;
   }
-  .skills{
+  .contact-1 {
+    margin: 0;
+    width: 70%;
+    padding: 0;
+  }
+  footer {
+    margin-top: 40%;
+  }
+  .section-2 {
+    padding: 0;
+  }
+  .box-email {
     width: 100%;
+    flex-direction: row-reverse;
+  }
+  .send-email {
+    background-color: #03072a;
+  }
 }
-.teks-22{
-  font-size: 1rem;
-}
-}
-
-
