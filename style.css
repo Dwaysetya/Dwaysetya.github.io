@@ -387,3 +387,64 @@ footer h1 {
   font-weight: 200;
   margin: 60px;
 }
+ 
+@media (max-width: 768px) {
+  .navbar {
+    position: fixed;
+    bottom: 0;
+    top: auto;
+    width: 100%;
+    height: 60px;
+    background-color: #020623;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    border-top: 1px solid #444;
+  }
+
+  .navbar ul {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    display: none;
+    padding: 0;
+    margin: 0;
+    background-color: #020623;
+  }
+
+  .navbar ul.show {
+    display: flex;
+  }
+
+  .navbar ul li {
+    padding: 0;
+  }
+
+  .hamburger {
+    position: absolute;
+    top: -60px; /* menempatkan hamburger di atas navbar */
+    right: 20px;
+  }
+   main {
+    margin-bottom: 70px;
+  }
+  .section-1{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .content2 img{
+    width: 100%;
+  }
+  .aboute{
+    flex-direction: column-reverse;
+  }
+  .skills{
+    width: 100%;
+}
+.teks-22{
+  font-size: 1rem;
+}
+}
+
+

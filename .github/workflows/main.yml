@@ -1,0 +1,26 @@
+name: Pac-Man Contribution Graph
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Setiap hari pada tengah malam (UTC)
+  workflow_dispatch:
+
+jobs:
+  pacman:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Generate Pac-Man contribution graph
+      run: |
+        curl -sSL https://github.com/abozanona/pacman-contribution-graph/releases/download/v1.0.0/pacman-contribution-graph-linux-x64.tar.gz | tar xz
+        ./pacman-contribution-graph --user Dwaysetya --output output
+        mv output/*.svg ./output/
+
+    - name: Upload Pac-Man graph as an artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: pacman-graph
+        path: output/*.svg
